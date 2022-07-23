@@ -1,0 +1,41 @@
+.single-post {
+  background: $primary;
+  .container {
+    background: white;
+    padding: 2rem;
+    .entry-meta {
+      color: rgba($primary, 0.3);
+      a {
+        color: rgba($primary, 0.3);
+      }
+    }
+    .entry-title {
+      text-transform: uppercase;
+      font-size:1.5rem;
+      padding:1rem 0 2rem;
+    }
+    .gallery-item {
+      img {
+        transition:$transition-quick;
+        &:hover {
+          opacity:0.8;
+        }
+      }
+    }
+  }
+  #swipebox-prev {
+    background-image: url('../images/left-arrow.svg') !important;
+    background-size: 25px;
+    background-position: center;
+  }
+  #swipebox-next {
+    background-image: url('../images/right-arrow.svg') !important;
+    background-size: 25px;
+    background-position: center;
+  }
+  #swipebox-close {
+    background-image: url('../images/close.svg') !important;
+    background-size: 25px;
+    background-position: center;
+  }
+}

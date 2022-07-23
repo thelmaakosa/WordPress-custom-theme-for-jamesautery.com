@@ -1,0 +1,41 @@
+.post-type-archive-projects {
+  background-color: $primary !important;
+  color: $dark-page-text;
+    .wrapper {
+      padding:0;
+    
+    main {
+      a {
+        position:relative;
+        .overlay {
+          position:absolute;
+          top:0;
+          left:0;
+          right:0;
+          bottom:0;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          opacity:0;
+          transition: $transition-medium;
+          span {
+            display:block;
+            width:100%;
+            text-align:center;
+            color:white;
+            background: rgba($primary, 0.3);
+            font-size:0.95rem;
+            text-shadow:1px 1px 1px $primary;
+            letter-spacing: $spaced;
+            text-transform:uppercase;
+          }
+        }
+        &:hover {
+          .overlay {
+            opacity:1;
+          }
+        }
+      }
+    }
+  }
+}

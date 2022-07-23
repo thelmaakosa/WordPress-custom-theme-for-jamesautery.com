@@ -1,0 +1,43 @@
+.blog {
+  .post {
+    margin-bottom:75px;
+    a {
+      transition:$transition-quick;
+      &:hover {
+        color:rgba($primary, 0.4);
+      }
+    }
+    .entry-title {
+      font-size:1.5rem;
+      letter-spacing: $smallSpaced;
+      a {
+        &:hover {
+          text-decoration:none;
+        }
+      }
+    }
+    .entry-meta {
+      color:rgba($primary, 0.4);
+      a {
+        color:rgba($primary, 0.6);
+        &:hover {
+          color:rgba($primary, 0.4);
+          
+        }
+      }
+    }
+    .entry-content {
+      a {
+        font-style:italic;
+        font-size:0.8rem;
+        line-height:3.5rem;
+        &:hover {
+          text-decoration:none;
+        }
+      }
+    }
+    .wp-post-image {
+      width:100%;
+    }
+  }
+}

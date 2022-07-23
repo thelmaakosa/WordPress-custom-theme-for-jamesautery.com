@@ -1,0 +1,90 @@
+.single-projects {
+  background-color: $primary;
+  color: $dark-page-text;
+  .wrapper {
+    padding:0 0 20px;
+    main {
+      .slick-list {
+        .slick-track {
+          height:800px !important;
+          .slick-slide {
+            >div {
+              height:100%;
+              width:100%;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              iframe {
+                height:100%;
+              }
+            }
+          }
+        }
+      }
+      .carousel-control-prev,
+      .carousel-control-next {
+        background:none !important;
+        border:none !important;
+        width:5%;
+        min-width:90px;
+        img {
+          height:30px;
+          opacity: 0.8 !important;
+          &:active, &:focus {
+            opacity: 0.8 !important;
+          }
+        }
+        .carousel-tracker {
+          width:35px;
+          position:relative;
+          p {
+            margin:0;
+            &.current {
+              text-align:left;
+            }
+            &.total {
+              text-align:right;
+            }
+          }
+        }
+      }
+      .carousel-control-next {
+        .carousel-tracker {
+          margin-right: 10px;
+        }
+      }
+      .carousel-control-prev {
+        .carousel-tracker {
+          margin-left: 10px;
+        }
+      }
+      @include media-breakpoint-down(lg) {
+        .slick-track {
+          height:700px !important;
+        }
+      }
+      @include media-breakpoint-down(md) {
+        .slick-track {
+          height: 600px !important;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+          min-width:45px;
+          .carousel-tracker {
+              display:none;
+          }
+        }
+      }
+      @include media-breakpoint-down(sm) {
+        .slick-track {
+          height: 500px !important;
+        }
+      }
+      @include media-breakpoint-down(xs) { 
+        .slick-track {
+          height:400px !important;
+        }
+      }
+    }
+  }
+}

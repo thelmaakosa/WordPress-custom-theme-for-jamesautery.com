@@ -1,0 +1,33 @@
+.front-page {
+  background-color:$primary !important;
+  color: $dark-page-text;
+  .wrapper {
+    padding:0;
+    main {
+      iframe {
+        width:100%;
+        height:800px;
+      }
+      @include media-breakpoint-down(lg) {
+        iframe {
+          height:700px !important;
+        }
+      }
+      @include media-breakpoint-down(md) {
+        iframe {
+          height: 600px !important;
+        }
+      }
+      @include media-breakpoint-down(sm) {
+        iframe {
+          height: 500px !important;
+        }
+      }
+      @include media-breakpoint-down(xs) { 
+        iframe {
+          height:400px !important;
+        }
+      }
+    }
+  }
+}
