@@ -1,26 +1,12 @@
-Travis build: [![Build Status](https://travis-ci.org/understrap/understrap.svg?branch=master)](https://travis-ci.org/understrap/understrap)
-
-#### See: [Official Demo](https://understrap.com/understrap) | Read: [Official Docs Page](https://understrap.github.io/)
-
 # UnderStrap WordPress Theme Framework
 
-Website: [https://understrap.com](https://understrap.com)
-
-Child Theme Project: [https://github.com/understrap/understrap-child](https://github.com/understrap/understrap-child)
-
-## About
-
-I’m a huge fan of Underscores, Bootstrap, and Sass. Why not combine these into a solid WordPress Theme Framework? That’s what UnderStrap is. You can use it as a starter theme and build your own theme on top of it. Or you can use it as a parent theme and create your own child theme for UnderStrap.
+Website: https://jamesautery.com
 
 ## License
 UnderStrap WordPress Theme, Copyright 2013-2018 Holger Koenemann
 UnderStrap is distributed under the terms of the GNU GPL version 2
 
 http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
-
-## Changelog
-See [changelog](CHANGELOG.md)
-
 
 ## Basic Features
 
@@ -138,15 +124,3 @@ The `fullwidthpage.php` template has full width layout without a sidebar.
 ## Footnotes
 
 [1] Visit [http://browsersync.io](http://browsersync.io) for more information on Browser Sync
-
-Licenses & Credits
-=
-- Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
-- Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT documentation under CC BY 3.0.)
-and of course
-- jQuery: https://jquery.org | (Code licensed under MIT)
-- WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
-- Bootstrap Gallery Script based on Roots Sage Gallery: https://github.com/roots/sage/blob/5b9786b8ceecfe717db55666efe5bcf0c9e1801c/lib/gallery.php
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-139292-31/chromeskel_a/readme)](https://github.com/igrigorik/ga-beacon)
